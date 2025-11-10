@@ -1,0 +1,62 @@
+/* TO SEE everything REMOVE LATER*/
+html {
+    /*border: 1px solid red;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/*start of main stylesheet*/
+:root {
+    --color0: hsl(30, 100%, 30%);
+    --color1: hsl(30, 100%, 40%);
+    --color2: hsl(30, 100%, 55%);
+    --color3: hsl(30, 100%, 67%);
+    --color4: hsl(30, 100%, 80%);
+    --color5: hsl(30, 100%, 90%);
+    --solid-border: 1px solid black;
+    --dashed-border: 1px dashed black;
+}
+h1 {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.available-0 {
+    background: var(--color0);
+}
+.available-1 {
+    background: var(--color1);
+}
+.available-2 {
+    background: var(--color2);
+}
+.available-3 {
+    background: var(--color3);
+}
+.available-4 {
+    background: var(--color4);
+}
+.available-5 {
+    background: var(--color5);
+}
+.half {
+    border-bottom: var(--solid-border);
+}
+.sharp {
+    border-bottom: var(--dashed-border);
+}
+.time-half {
+    color: transparent;
+}
+table {
+    border-collapse: collapse;
+    padding: 0;
+}
+td {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 9rem;
+}
+.top {
+    border-top: 1px solid black;
+}
