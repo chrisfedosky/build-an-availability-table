@@ -22,22 +22,22 @@ h1 {
     flex-wrap: wrap;
 }
 .available-0 {
-    background: var(--color0);
+    background-color: var(--color0);
 }
 .available-1 {
-    background: var(--color1);
+    background-color: var(--color1);
 }
 .available-2 {
-    background: var(--color2);
+    background-color: var(--color2);
 }
 .available-3 {
-    background: var(--color3);
+    background-color: var(--color3);
 }
 .available-4 {
-    background: var(--color4);
+    background-color: var(--color4);
 }
 .available-5 {
-    background: var(--color5);
+    background-color: var(--color5);
 }
 .half {
     border-bottom: var(--solid-border);
@@ -52,9 +52,16 @@ table {
     border-collapse: collapse;
     padding: 0;
 }
-td {
+.sharp > td {
     border-right: 1px solid black;
     border-left: 1px solid black;
+    border-bottom: var(--solid-border);
+    width: 9rem;
+}
+.half > td {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: var(--dashed-border);
     width: 9rem;
 }
 .top {
