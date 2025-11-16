@@ -1,10 +1,7 @@
-/* TO SEE everything REMOVE LATER*/
 html {
-    /*border: 1px solid red;*/
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-/*start of main stylesheet*/
 :root {
     --color0: hsl(30, 100%, 30%);
     --color1: hsl(30, 100%, 40%);
@@ -39,12 +36,7 @@ h1 {
 .available-5 {
     background-color: var(--color5);
 }
-.half {
-    border-bottom: var(--solid-border);
-}
-.sharp {
-    border-bottom: var(--dashed-border);
-}
+
 .time-half {
     color: transparent;
 }
@@ -52,18 +44,18 @@ table {
     border-collapse: collapse;
     padding: 0;
 }
-.sharp > td {
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    border-bottom: var(--solid-border);
-    width: 9rem;
-}
-.half > td {
-    border-right: 1px solid black;
-    border-left: 1px solid black;
+.half td {
     border-bottom: var(--dashed-border);
     width: 9rem;
 }
-.top {
-    border-top: 1px solid black;
+.sharp td {
+    border-bottom: var(--solid-border);
+    width: 9rem;
 }
+#legend-gradient {
+    width: 300px;
+    height: 20px;
+    background-image: linear-gradient(to right,
+        var(--color0) 0% 15%, var(--color1) 15% 30%, var(--color2) 30% 45%, var(--color3) 45% 60%, var(--color4) 60% 80%, var(--color5) 80% 100%);
+}
+
