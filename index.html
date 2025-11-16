@@ -14,16 +14,16 @@
         <thead>
             <tr>
                 <th></th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
             </tr>
         </thead>
         <tbody>
             <tr class="sharp">
-                <th class="time">7am</th>
+                <th class="time" scope="row">7am</th>
                 <td class="available-0"></td>
                 <td class="available-2"></td>
                 <td class="available-0"></td>
@@ -31,7 +31,7 @@
                 <td class="available-1"></td>
             </tr>
             <tr class="half">
-                <th class="time-half">. </th>
+                <th class="time-half" scope="row">. </th>
                 <td class="available-5"></td>
                 <td class="available-5"></td>
                 <td class="available-1"></td>
@@ -39,7 +39,7 @@
                 <td class="available-1"></td>
             </tr>
             <tr class="sharp">
-                <th class="time">8am</th>
+                <th class="time" scope="row">8am</th>
                 <td class="available-1"></td>
                 <td class="available-3"></td>
                 <td class="available-4"></td>
@@ -47,87 +47,87 @@
                 <td class="available-5"></td>
             </tr>
             <tr class="half">
-                <th class="time-half">. </th>
+                <th class="time-half" scope="row">. </th>
                 <td class="available-3"></td>
                 <td class="available-2"></td>
                 <td class="available-5"></td>
                 <td class="available-5"></td>
                 <td class="available-1"></td>
             </tr>
-            <tr>
-                <th class="time">9am</th>
+            <tr class="sharp">
+                <th class="time" scope="row">9am</th>
                 <td class="available-3"></td>
                 <td class="available-1"></td>
                 <td class="available-0"></td>
                 <td class="available-4"></td>
                 <td class="available-4"></td>
             </tr>
-            <tr>
-                <th class="time-half">. </th>
+            <tr class="half">
+                <th class="time-half" scope="row">. </th>
                 <td class="available-0"></td>
                 <td class="available-0"></td>
                 <td class="available-0"></td>
                 <td class="available-4"></td>
                 <td class="available-3"></td>
             </tr>
-            <tr>
-                <th class="time">10am</th>
+            <tr class="sharp">
+                <th class="time" scope="row">10am</th>
                 <td class="available-2"></td>
                 <td class="available-3"></td>
                 <td class="available-2"></td>
                 <td class="available-5"></td>
                 <td class="available-5"></td>
             </tr>
-            <tr>
-                <th class="time-half">. </th>
+            <tr class="half">
+                <th class="time-half" scope="row">. </th>
                 <td class="available-5"></td>
                 <td class="available-5"></td>
                 <td class="available-1"></td>
                 <td class="available-0"></td>
                 <td class="available-1"></td>
             </tr>
-            <tr>
-                <th class="time">11am</th>
+            <tr class="sharp">
+                <th class="time" scope="row">11am</th>
                 <td class="available-5"></td>
                 <td class="available-5"></td>
                 <td class="available-0"></td>
                 <td class="available-3"></td>
                 <td class="available-2"></td>
             </tr>
-            <tr>
-                <th class="time-half">. </th>
+            <tr class="half">
+                <th class="time-half" scope="row">. </th>
                 <td class="available-3"></td>
                 <td class="available-2"></td>
                 <td class="available-5"></td>
                 <td class="available-5"></td>
                 <td class="available-5"></td>
             </tr>
-            <tr>
-                <th class="time">12pm</th>
+            <tr class="sharp">
+                <th class="time" scope="row">12pm</th>
                 <td class="available-5"></td>
                 <td class="available-4"></td>
                 <td class="available-3"></td>
                 <td class="available-1"></td>
                 <td class="available-1"></td>
             </tr>
-            <tr>
-                <th class="time-half">. </th>
+            <tr class="half">
+                <th class="time-half" scope="row">. </th>
                 <td class="available-5"></td>
                 <td class="available-5"></td>
                 <td class="available-1"></td>
                 <td class="available-0"></td>
                 <td class="available-1"></td>
             </tr>
-            <tr>
-                <th class="time">1pm</th>
+            <tr class="sharp">
+                <th class="time" scope="row">1pm</th>
                 <td class="available-0"></td>
                 <td class="available-1"></td>
                 <td class="available-1"></td>
                 <td class="available-2"></td>
                 <td class="available-5"></td>
             </tr>
-            <tr>
-                <th class="time-half">. </th>
+            <tr class="half">
+                <th class="time-half" scope="row">. </th>
                 <td class="available-5"></td>
                 <td class="available-5"></td>
                 <td class="available-1"></td>
@@ -135,8 +135,11 @@
                 <td class="available-1"></td>
             </tr>
         </tbody>
-        <tfoot></tfoot>
     </table>
+    <div id="legend">
+        <span>Availability</span>
+        <div id="legend-gradient"></div>
+    </div>
 </body>
 
 </html>
